@@ -10,10 +10,10 @@ public class ItSakerhetJava23AdamBarnellUppgift2Application {
 
 	public static void main(String[] args) throws Exception {
 		try {
+			//Testing the encryption
 			EncryptionService service = new EncryptionService();
 			String original = "Test message for encryption";
 
-			// Encrypt and immediately decrypt
 			String encrypted = service.encrypt(original);
 			System.out.println("Encrypted: " + encrypted);
 
